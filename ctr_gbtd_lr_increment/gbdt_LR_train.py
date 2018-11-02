@@ -68,10 +68,10 @@ def create_feature(data):
     data["app_site_id_model"] = data["app_site_id"] + "_" + data["device_model"]
     return data
 
-sample_datapath = "/data/sujianyu/ctrsample/"
-#train_datapath = "/data/barnett007/ctr-data/"
-sample_filename = "train_sample2.csv"
-#train_filename = "train.csv"
+# sample_datapath = "/data/sujianyu/ctrsample/"
+train_datapath = "/data/barnett007/ctr-data/"
+# sample_filename = "train_sample2.csv"
+train_filename = "train.csv"
 output = "/output"
 #本机运行时的路径
 #output = "output"
