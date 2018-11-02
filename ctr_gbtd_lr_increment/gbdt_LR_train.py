@@ -69,9 +69,11 @@ def create_feature(data):
     return data
 
 # sample_datapath = "/data/sujianyu/ctrsample/"
-train_datapath = "/data/barnett007/ctr-data/"
+sample_datapath = "/data/barnett007/ctr-data/"
+# train_datapath = "/data/barnett007/ctr-data/"
 # sample_filename = "train_sample2.csv"
-train_filename = "train.csv"
+sample_filename = "train.csv"
+# train_filename = "train.csv"
 output = "/output"
 #本机运行时的路径
 #output = "output"
